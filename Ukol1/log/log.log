@@ -1,0 +1,290 @@
+2020-01-16 09:55:57,168 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 09:55:57,200 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:18) Begin 
+2020-01-16 09:55:57,489 ERROR javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:44) ErrorCode: 0SQLState: 08004 
+2020-01-16 09:56:10,711 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 09:56:10,715 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:17) Begin 
+2020-01-16 09:56:10,992 ERROR javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:43) ErrorCode: 0SQLState: 08004 
+2020-01-16 09:59:17,093 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 09:59:17,099 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:17) Begin 
+2020-01-16 09:59:17,739 ERROR javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:43) ErrorCode: 0SQLState: 28P01 
+2020-01-16 10:00:06,659 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 10:00:06,664 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:17) Begin 
+2020-01-16 10:26:47,134 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 10:26:47,140 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:16) Begin 
+2020-01-16 10:26:47,145 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-16 10:26:47,145 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-16 10:26:47,551 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 10:26:47,551 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-16 10:26:47,551 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-16 10:26:47,626 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 10:26:47,626 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-16 10:26:47,626 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-16 10:26:47,627 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 10:26:47,627 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-16 10:26:47,627 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-16 10:26:47,627 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 10:26:47,627 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-16 10:26:47,627 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-16 10:26:47,634 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 10:26:47,635 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-16 10:26:47,635 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-16 11:36:57,024 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 11:36:57,078 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:19) Begin 
+2020-01-16 11:36:57,130 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-16 11:36:57,131 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-16 11:36:57,139 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:36:57,139 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-16 11:36:57,140 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-16 11:36:57,291 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:36:57,291 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-16 11:36:57,291 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-16 11:36:57,292 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:36:57,292 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-16 11:36:57,292 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-16 11:36:57,292 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:36:57,292 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-16 11:36:57,292 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-16 11:36:57,295 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:36:57,296 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-16 11:36:57,296 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-16 11:36:58,260 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:47) select * from public.zmeny 
+2020-01-16 11:36:58,311 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:54) select * from public.kmen where id=1 
+2020-01-16 11:36:58,404 ERROR javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:85) ErrorCode: 0SQLState: 42703 
+2020-01-16 11:39:51,110 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 11:39:51,115 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:19) Begin 
+2020-01-16 11:39:51,121 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-16 11:39:51,122 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-16 11:39:51,125 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:39:51,125 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-16 11:39:51,126 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-16 11:39:51,160 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:39:51,161 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-16 11:39:51,161 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-16 11:39:51,161 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:39:51,161 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-16 11:39:51,161 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-16 11:39:51,162 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:39:51,162 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-16 11:39:51,162 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-16 11:39:51,165 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:39:51,165 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-16 11:39:51,165 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-16 11:39:51,526 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:47) select * from public.zmeny 
+2020-01-16 11:39:51,545 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:54) select * from public.kmen where kod=1 
+2020-01-16 11:39:51,554 ERROR javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:85) ErrorCode: 0SQLState: 24000 
+2020-01-16 11:48:24,987 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 11:48:24,993 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:19) Begin 
+2020-01-16 11:48:24,998 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-16 11:48:24,999 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-16 11:48:25,002 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:48:25,003 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-16 11:48:25,003 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-16 11:48:25,029 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:48:25,030 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-16 11:48:25,030 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-16 11:48:25,030 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:48:25,030 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-16 11:48:25,031 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-16 11:48:25,031 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:48:25,031 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-16 11:48:25,031 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-16 11:48:25,034 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:48:25,034 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-16 11:48:25,034 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-16 11:48:25,407 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:47) select * from public.zmeny 
+2020-01-16 11:48:25,425 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:54) select * from public.kmen where kod=1 
+2020-01-16 11:48:25,434 ERROR javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:86) ErrorCode: 0SQLState: 24000 
+2020-01-16 11:51:13,389 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 11:51:13,396 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:19) Begin 
+2020-01-16 11:51:13,402 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-16 11:51:13,402 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-16 11:51:13,409 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:51:13,409 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-16 11:51:13,409 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-16 11:51:13,468 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:51:13,468 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-16 11:51:13,468 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-16 11:51:13,469 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:51:13,469 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-16 11:51:13,469 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-16 11:51:13,469 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:51:13,469 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-16 11:51:13,470 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-16 11:51:13,476 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:51:13,477 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-16 11:51:13,477 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-16 11:51:14,132 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:47) select * from public.zmeny 
+2020-01-16 11:51:14,172 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:54) select * from public.kmen where kod=1 
+2020-01-16 11:51:14,172 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:56) statement2 
+2020-01-16 11:51:14,210 ERROR javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:87) ErrorCode: 0SQLState: 24000 
+2020-01-16 11:51:45,116 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 11:51:45,122 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:19) Begin 
+2020-01-16 11:51:45,127 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-16 11:51:45,128 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-16 11:51:45,133 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:51:45,133 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-16 11:51:45,133 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-16 11:51:45,188 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:51:45,189 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-16 11:51:45,189 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-16 11:51:45,189 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:51:45,189 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-16 11:51:45,189 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-16 11:51:45,190 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:51:45,190 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-16 11:51:45,190 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-16 11:51:45,195 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:51:45,195 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-16 11:51:45,196 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-16 11:51:46,099 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:47) select * from public.zmeny 
+2020-01-16 11:51:46,119 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:54) select * from public.kmen where kod=1 
+2020-01-16 11:51:46,199 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:57) statement2 
+2020-01-16 11:51:46,211 ERROR javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:87) ErrorCode: 0SQLState: 24000 
+2020-01-16 11:52:24,777 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 11:52:24,786 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:19) Begin 
+2020-01-16 11:52:24,795 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-16 11:52:24,795 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-16 11:52:24,799 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:52:24,799 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-16 11:52:24,800 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-16 11:52:24,825 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:52:24,825 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-16 11:52:24,825 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-16 11:52:24,826 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:52:24,826 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-16 11:52:24,826 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-16 11:52:24,826 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:52:24,826 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-16 11:52:24,827 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-16 11:52:24,830 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:52:24,830 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-16 11:52:24,830 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-16 11:52:26,012 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:47) select * from public.zmeny 
+2020-01-16 11:52:26,038 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:54) select * from public.kmen where kod=1 
+2020-01-16 11:52:26,051 ERROR javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:87) ErrorCode: 0SQLState: 24000 
+2020-01-16 11:54:02,214 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 11:54:02,257 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:19) Begin 
+2020-01-16 11:54:02,267 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-16 11:54:02,269 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-16 11:54:02,284 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:54:02,284 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-16 11:54:02,284 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-16 11:54:02,348 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:54:02,348 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-16 11:54:02,348 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-16 11:54:02,349 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:54:02,349 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-16 11:54:02,349 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-16 11:54:02,349 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:54:02,350 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-16 11:54:02,350 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-16 11:54:02,356 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:54:02,356 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-16 11:54:02,356 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-16 11:54:02,790 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:47) select * from public.zmeny 
+2020-01-16 11:54:02,813 ERROR javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:88) ErrorCode: 0SQLState: 55000 
+2020-01-16 11:59:23,365 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 11:59:23,373 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:19) Begin 
+2020-01-16 11:59:23,379 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-16 11:59:23,380 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-16 11:59:23,388 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:59:23,394 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-16 11:59:23,394 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-16 11:59:23,449 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:59:23,449 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-16 11:59:23,450 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-16 11:59:23,450 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:59:23,450 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-16 11:59:23,451 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-16 11:59:23,451 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:59:23,451 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-16 11:59:23,451 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-16 11:59:23,457 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 11:59:23,458 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-16 11:59:23,458 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-16 11:59:23,905 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:47) select * from public.zmeny 
+2020-01-16 11:59:23,924 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:55) select * from public.kmen where kod=1 
+2020-01-16 11:59:23,927 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:60) statement2 
+2020-01-16 11:59:23,927 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:69) update public.kmen set mnozstvi=500where kod=1 
+2020-01-16 11:59:23,959 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:71) upadteCount: 1 
+2020-01-16 11:59:23,959 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:55) select * from public.kmen where kod=2 
+2020-01-16 11:59:23,960 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:60) statement2 
+2020-01-16 11:59:23,960 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:69) update public.kmen set mnozstvi=470where kod=2 
+2020-01-16 11:59:23,962 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:71) upadteCount: 1 
+2020-01-16 11:59:23,962 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:55) select * from public.kmen where kod=4 
+2020-01-16 11:59:23,964 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:60) statement2 
+2020-01-16 11:59:23,964 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:69) update public.kmen set mnozstvi=330where kod=4 
+2020-01-16 11:59:23,966 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:71) upadteCount: 1 
+2020-01-16 12:26:30,945 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 12:26:30,954 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:21) Begin 
+2020-01-16 12:26:30,959 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-16 12:26:30,960 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-16 12:26:30,963 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 12:26:30,964 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-16 12:26:30,964 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-16 12:26:30,990 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 12:26:30,991 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-16 12:26:30,991 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-16 12:26:30,991 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 12:26:30,991 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-16 12:26:30,991 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-16 12:26:30,991 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 12:26:30,991 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-16 12:26:30,992 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-16 12:26:30,994 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 12:26:30,995 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-16 12:26:30,995 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-16 12:26:31,392 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:83) select * from public.zmeny 
+2020-01-16 12:26:31,411 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:92) select * from public.kmen where kod=1 
+2020-01-16 12:26:31,414 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:97) statement2 
+2020-01-16 12:26:31,414 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:106) update public.kmen set mnozstvi=0where kod=1 
+2020-01-16 12:26:31,417 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:108) upadteCount: 1 
+2020-01-16 12:26:31,663 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:60) insert into public.historie (kod_kmen, jmeno, mnozstvi_puvodni, mnozstvi_nove, cas) values (1,boty,500,0,'2020-01-16 12:26') 
+2020-01-16 12:26:31,688 ERROR javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:73) ErrorCode: 0SQLState: 42703 
+2020-01-16 12:26:31,688 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:92) select * from public.kmen where kod=2 
+2020-01-16 12:26:31,689 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:97) statement2 
+2020-01-16 12:26:31,690 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:106) update public.kmen set mnozstvi=440where kod=2 
+2020-01-16 12:26:31,691 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:108) upadteCount: 1 
+2020-01-16 12:26:31,692 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:60) insert into public.historie (kod_kmen, jmeno, mnozstvi_puvodni, mnozstvi_nove, cas) values (2,klobouky,470,440,'2020-01-16 12:26') 
+2020-01-16 12:26:31,697 ERROR javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:73) ErrorCode: 0SQLState: 42703 
+2020-01-16 12:26:31,697 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:92) select * from public.kmen where kod=4 
+2020-01-16 12:26:31,698 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:97) statement2 
+2020-01-16 12:26:31,698 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:106) update public.kmen set mnozstvi=630where kod=4 
+2020-01-16 12:26:31,700 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:108) upadteCount: 1 
+2020-01-16 12:26:31,700 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:60) insert into public.historie (kod_kmen, jmeno, mnozstvi_puvodni, mnozstvi_nove, cas) values (4,kalhoty,330,630,'2020-01-16 12:26') 
+2020-01-16 12:26:31,705 ERROR javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:73) ErrorCode: 0SQLState: 42703 
+2020-01-16 12:29:55,046 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 12:29:55,052 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:21) Begin 
+2020-01-16 12:29:55,057 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-16 12:29:55,058 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-16 12:29:55,062 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 12:29:55,062 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-16 12:29:55,062 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-16 12:29:55,094 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 12:29:55,094 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-16 12:29:55,094 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-16 12:29:55,094 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 12:29:55,094 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-16 12:29:55,095 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-16 12:29:55,095 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 12:29:55,095 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-16 12:29:55,095 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-16 12:29:55,099 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 12:29:55,099 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-16 12:29:55,099 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-16 12:29:55,614 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:83) select * from public.zmeny 
+2020-01-16 12:29:55,661 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:92) select * from public.kmen where kod=1 
+2020-01-16 12:29:55,664 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:97) statement2 
+2020-01-16 12:29:55,664 ERROR javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:112) Unable to update mnozstvi, mnozstvi=0, zmena=-500 
+2020-01-16 12:29:55,664 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:92) select * from public.kmen where kod=2 
+2020-01-16 12:29:55,665 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:97) statement2 
+2020-01-16 12:29:55,665 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:106) update public.kmen set mnozstvi=410where kod=2 
+2020-01-16 12:29:55,693 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:108) upadteCount: 1 
+2020-01-16 12:29:56,022 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:60) insert into public.historie (kod_kmen, jmeno, mnozstvi_puvodni, mnozstvi_nove, cas) values (2,'klobouky',440,410,'2020-01-16 12:29') 
+2020-01-16 12:29:56,501 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:62) upadteCount: 1 
+2020-01-16 12:29:56,503 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:92) select * from public.kmen where kod=4 
+2020-01-16 12:29:56,602 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:97) statement2 
+2020-01-16 12:29:56,603 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:106) update public.kmen set mnozstvi=930where kod=4 
+2020-01-16 12:29:56,604 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:108) upadteCount: 1 
+2020-01-16 12:29:56,604 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:60) insert into public.historie (kod_kmen, jmeno, mnozstvi_puvodni, mnozstvi_nove, cas) values (4,'kalhoty',630,930,'2020-01-16 12:29') 
+2020-01-16 12:29:56,606 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:62) upadteCount: 1 

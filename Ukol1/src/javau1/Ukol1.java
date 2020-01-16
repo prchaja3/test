@@ -17,5 +17,4 @@ public class Ukol1 {
 		
 		LOGGER.debug("******END******");
 	}
-
 }
