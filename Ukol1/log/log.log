@@ -288,3 +288,75 @@
 2020-01-16 12:29:56,604 DEBUG javau1.SpravceDatabaze.provedZmeny(SpravceDatabaze.java:108) upadteCount: 1 
 2020-01-16 12:29:56,604 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:60) insert into public.historie (kod_kmen, jmeno, mnozstvi_puvodni, mnozstvi_nove, cas) values (4,'kalhoty',630,930,'2020-01-16 12:29') 
 2020-01-16 12:29:56,606 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:62) upadteCount: 1 
+2020-01-16 14:35:21,757 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-16 14:35:21,773 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:19) Begin 
+2020-01-16 14:35:21,779 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-16 14:35:21,780 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-16 14:35:21,784 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 14:35:21,785 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-16 14:35:21,785 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-16 14:35:21,811 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 14:35:21,811 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-16 14:35:21,811 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-16 14:35:21,811 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 14:35:21,811 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-16 14:35:21,811 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-16 14:35:21,812 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 14:35:21,812 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-16 14:35:21,812 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-16 14:35:21,815 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-16 14:35:21,815 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-16 14:35:21,815 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-16 14:35:22,357 DEBUG javau1.SpravceDatabaze.nactiZmeny(SpravceDatabaze.java:101) select * from public.zmeny 
+2020-01-16 14:35:22,398 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:73) select * from public.kmen where kod=1 
+2020-01-16 14:35:22,402 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:79) statement2 
+2020-01-16 14:35:22,402 ERROR javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:94) Unable to update mnozstvi, mnozstvi=0, zmena=-500 
+2020-01-16 14:35:22,402 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:73) select * from public.kmen where kod=2 
+2020-01-16 14:35:22,403 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:79) statement2 
+2020-01-16 14:35:22,404 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:88) update public.kmen set mnozstvi=380where kod=2 
+2020-01-16 14:35:22,408 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:90) upadteCount: 1 
+2020-01-16 14:35:22,736 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:55) insert into public.historie (kod_kmen, jmeno, mnozstvi_puvodni, mnozstvi_nove, cas) values (2,'klobouky',410,380,'2020-01-16 14:35:22') 
+2020-01-16 14:35:22,739 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:57) upadteCount: 1 
+2020-01-16 14:35:22,739 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:73) select * from public.kmen where kod=4 
+2020-01-16 14:35:22,740 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:79) statement2 
+2020-01-16 14:35:22,740 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:88) update public.kmen set mnozstvi=1230where kod=4 
+2020-01-16 14:35:22,742 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:90) upadteCount: 1 
+2020-01-16 14:35:22,742 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:55) insert into public.historie (kod_kmen, jmeno, mnozstvi_puvodni, mnozstvi_nove, cas) values (4,'kalhoty',930,1230,'2020-01-16 14:35:22') 
+2020-01-16 14:35:22,743 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:57) upadteCount: 1 
+2020-01-16 14:35:22,744 DEBUG javau1.Ukol1.main(Ukol1.java:18) ******END****** 
+2020-01-17 08:36:56,001 DEBUG javau1.Ukol1.main(Ukol1.java:13) ******BEGIN****** 
+2020-01-17 08:36:56,016 DEBUG javau1.SpravceDatabaze.<init>(SpravceDatabaze.java:19) Begin 
+2020-01-17 08:36:56,033 DEBUG javau1.PropertyFileUtils.<init>(PropertyFileUtils.java:21) begin 
+2020-01-17 08:36:56,034 DEBUG javau1.PropertyFileUtils.getInstance(PropertyFileUtils.java:38) New instance 
+2020-01-17 08:36:56,038 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-17 08:36:56,038 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: DRIVER_CLASS 
+2020-01-17 08:36:56,038 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: org.postgresql.Driver 
+2020-01-17 08:36:56,207 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-17 08:36:56,207 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_PROTOCOL 
+2020-01-17 08:36:56,207 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: jdbc:postgresql:// 
+2020-01-17 08:36:56,207 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-17 08:36:56,208 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: URL_SYSTEM 
+2020-01-17 08:36:56,208 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: localhost:5432/UKOL_1 
+2020-01-17 08:36:56,208 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-17 08:36:56,208 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_NAME 
+2020-01-17 08:36:56,208 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: postgres 
+2020-01-17 08:36:56,211 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:51) begin 
+2020-01-17 08:36:56,212 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:55) propertyName: USER_PASSWORD 
+2020-01-17 08:36:56,212 DEBUG javau1.PropertyFileUtils.getProperty(PropertyFileUtils.java:56) propertyValue: Psql.3 
+2020-01-17 08:36:57,496 DEBUG javau1.SpravceDatabaze.nactiZmeny(SpravceDatabaze.java:101) select * from public.zmeny 
+2020-01-17 08:36:57,869 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:73) select * from public.kmen where kod=1 
+2020-01-17 08:36:58,005 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:79) statement2 
+2020-01-17 08:36:58,005 ERROR javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:94) Unable to update mnozstvi, mnozstvi=0, zmena=-500 
+2020-01-17 08:36:58,006 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:73) select * from public.kmen where kod=2 
+2020-01-17 08:36:58,008 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:79) statement2 
+2020-01-17 08:36:58,008 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:88) update public.kmen set mnozstvi=350where kod=2 
+2020-01-17 08:36:58,063 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:90) upadteCount: 1 
+2020-01-17 08:36:58,133 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:55) insert into public.historie (kod_kmen, jmeno, mnozstvi_puvodni, mnozstvi_nove, cas) values (2,'klobouky',380,350,'2020-01-17 08:36:58') 
+2020-01-17 08:36:58,276 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:57) upadteCount: 1 
+2020-01-17 08:36:58,276 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:73) select * from public.kmen where kod=4 
+2020-01-17 08:36:58,277 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:79) statement2 
+2020-01-17 08:36:58,278 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:88) update public.kmen set mnozstvi=1530where kod=4 
+2020-01-17 08:36:58,281 DEBUG javau1.SpravceDatabaze.editujZaznam(SpravceDatabaze.java:90) upadteCount: 1 
+2020-01-17 08:36:58,282 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:55) insert into public.historie (kod_kmen, jmeno, mnozstvi_puvodni, mnozstvi_nove, cas) values (4,'kalhoty',1230,1530,'2020-01-17 08:36:58') 
+2020-01-17 08:36:58,285 DEBUG javau1.SpravceDatabaze.zapisHistorii(SpravceDatabaze.java:57) upadteCount: 1 
+2020-01-17 08:36:58,287 DEBUG javau1.Ukol1.main(Ukol1.java:18) ******END****** 
