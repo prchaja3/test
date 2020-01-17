@@ -14,6 +14,7 @@ public class Ukol1 {
 		
 		SpravceDatabaze spravce = SpravceDatabaze.getInstance();
 		spravce.provedZmeny();
+		System.out.println("nevim");
 		
 		LOGGER.debug("******END******");
 	}
