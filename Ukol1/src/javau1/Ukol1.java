@@ -14,9 +14,6 @@ public class Ukol1 {
 		
 		SpravceDatabaze spravce = SpravceDatabaze.getInstance();
 		spravce.provedZmeny();
-		System.out.println("branch 2");
-		System.out.println("branch 2");
-		System.out.println("branch 2");
 		
 		LOGGER.debug("******END******");
 	}
